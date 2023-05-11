@@ -13,13 +13,21 @@ Some example STL output files are attached.
 
 ## Print Settings
 Printer brand: Creality
+
 Printer: Ender 3 Pro
+
 Rafts: No
+
 Supports: No
+
 Resolution: 0.2
+
 Infill: 25%
+
 Filament brand: 3D Solutech
+
 Filament color: Silver Metal (Gray)
+
 Filament material: PLA
 
 Notes:
