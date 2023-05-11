@@ -1,6 +1,23 @@
 # garden-sign
 Customizable Garden Plant Label Stake
+
 This is a fork of https://www.thingiverse.com/thing:4740308
+
+The STL file allows you to create your own custom plant stakes by changing the following variables.
+
+* text_string = "Plant";
+* text_size = 12;
+text_thickness = 3;
+text_font = "Nimbus Sans L:Bold";
+text_y_offset_adjust = 0;
+
+stake_in_ground_depth = 50;
+stake_min_length = 150;
+stake_thickness = 5;
+stake_height = 5;
+
+point_length = 10;
+tip_size = 0.5;
 
 ## Summary
 Customizable garden plant label sign.
