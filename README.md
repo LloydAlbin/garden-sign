@@ -10,14 +10,22 @@ The STL file allows you to create your own custom plant stakes by changing the f
 * text_thickness = 3;
 * text_font = "Nimbus Sans L:Bold";
 * text_y_offset_adjust = 0;
-
 * stake_in_ground_depth = 50;
 * stake_min_length = 150;
 * stake_thickness = 5;
 * stake_height = 5;
-
 * point_length = 10;
 * tip_size = 0.5;
+
+The original file just had stake_length, which has been replaced in this forked version with stake_min_length and stake_in_ground_depth.
+
+* stake_min_length is the overall minimum stake length.
+* stake_in_ground_depth is the minimum stake in ground depth.
+
+When you enter a long plant name, that exceeds the stake_min_length - stake_in_ground_depth, the system will then use the text length + stake_in_ground_length for the total stake length.
+
+If you want this app to act like the originall app, just set the stake_in_ground_depth to 0.
+
 
 ## Summary
 Customizable garden plant label sign.
